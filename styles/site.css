@@ -1,0 +1,144 @@
+/* all start*/
+html {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, .7);
+}
+
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+/* all end*/
+/*header styles start*/
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    width: calc(100vw - 48px);
+    text-align: center;
+}
+
+h1{
+    color: rgba(0, 0, 0, .8);
+}
+
+h6{
+    color: rgba(0, 0, 0, .4);
+    display: block;
+}
+
+/*header styles end*/
+/*catalog styles start*/
+
+.catalog{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/*catalog styles end*/
+/*card styles start*/
+
+.card{
+    background-color: aliceblue;
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.card h3{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    color: rgba(0, 0, 0, .85);
+}
+
+.card h4{
+    position: absolute;
+    color: rgba(0, 0, 0, .6);
+    top: 20px;
+    left: 60px;
+}
+
+.card #msrp{
+    position: absolute;
+    top: 60px;
+    left: 16px;
+}
+
+.card #mpg{
+    position: absolute;
+    top: 60px;
+    left: 155px;
+}
+
+.card #ldu{
+    position: absolute;
+    top: 120px;
+    left: 16px;
+}
+
+/*card styles end*/
+/*form styles start*/
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 180px;
+    text-align: left;
+}
+
+input {
+    display: inline-block;
+    width: 150px;
+}
+
+.input-form{
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.show-all-btn{
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.add-sedan-form{
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.feedback {
+    color: red;
+}
+
+.search-feedback{
+    color: rgba(0, 0, 0, .7);
+}
+
+button {
+    background-color: rgb(28, 136, 199);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+select{
+    border-radius: .5em;
+    appearance: none;
+    background-color: #fff;
+}
+
+/*form styles end*/
